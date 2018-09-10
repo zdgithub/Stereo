@@ -6,7 +6,7 @@ import glob
 def get_data():
     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
     # 所用图片中含有9x6的内部角点
-    w = 7
+    w = 9
     h = 6
 
     # 不考虑z坐标

@@ -6,7 +6,7 @@ import glob
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 
 # 图片中含有9x6的内部角点
-w = 6
+w = 9
 h = 6
 # prepare object points, like (0,0,0), (1,0,0), (2,0,0) ....,(8,5,0)
 objp = np.zeros((w*h, 3), np.float32)
