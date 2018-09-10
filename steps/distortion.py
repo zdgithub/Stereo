@@ -9,8 +9,6 @@ def estimate_lens_distortion(intrinsics, extrinsics, real, sensor):
     D = []
     d = []
 
-    l = 0
-
     # 遍历m张图片，每张图片有n个内部角点
     for i in range(0, len(sensor)):
         for j in range(0, int(real.size/2)):  # 遍历54=6x9个点
